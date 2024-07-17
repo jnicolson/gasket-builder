@@ -4,6 +4,8 @@ The Google [Coral AI Accelerators](https://coral.ai) require a driver called Gas
 
 This repository contains a Docker file to build the deb package to install on recent kernel versions, to avoid installing development dependencies on production servers.
 
+Previously the source gasket driver from Google didn't work with kernel versions >6.8 however it now does so the additional patch this used to contain is no longer needed.
+
 ## Instructions
 
 ```
